@@ -49,7 +49,7 @@ int main()
     char* topic = "openhab/parents/command";
 
 
-    char* hostname = "172.16.73.4";
+    char* hostname = "iot.eclipse.org";
     int port = 1883;
 
     int rc = ipstack.connect(hostname, port);
